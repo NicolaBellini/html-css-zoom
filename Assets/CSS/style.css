@@ -30,6 +30,22 @@ main{
   height: 100%;
 }
 
+.fixed{
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  color: white;
+  padding: 3px 2px;
+  z-index: 1;
+}
+
+.fixed span{
+  background-color: rgb(141, 137, 137);
+  margin-left: 5px;
+  border-radius: 2px;
+  padding: 3px 2px;
+}
+
 .window{
   width: 240px;
   height: 165px;
