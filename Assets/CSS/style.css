@@ -16,6 +16,10 @@ main{
   overflow: auto;
 }
 
+.flex{
+  display: flex;
+}
+
 .container{
   display: flex;
   flex-wrap: wrap;
@@ -35,6 +39,7 @@ main{
 }
 
 .name-mic{
+  color: white;
   padding: 2px 3px;
   background-color: #505f6d73;
   width: 45%;
@@ -45,6 +50,8 @@ main{
 }
 
 /* footer */
+
+
 footer{
   height: 100px;
   background-color:yellow;
@@ -53,3 +60,83 @@ footer{
   align-items: center;
   color: white;
   background-color: #222222;
+  font-size: 2rem;
+}
+
+/* icone */
+.icons{
+  height: 80%;
+  width: 100%;
+}
+
+.media{
+  flex-wrap: wrap;
+  width: 15%;
+}
+
+.media div:hover{
+  color: #4bc800;
+}
+
+.media div{
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 10px;
+} 
+
+.media span{
+  padding-left: 10px;
+  font-size: 1rem;
+}
+
+.action{
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.action div{
+  cursor: pointer;
+}
+
+.action div:hover{
+  color: #4bc800;
+}
+
+
+.action .active{
+  color: #4bc800;
+}
+
+footer #chevron{
+  font-size: 1.2rem;
+}
+
+.caption#chevron{
+  justify-content: center;
+}
+
+.action .caption{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action span{
+  font-size: 1.2rem;
+}
+
+.end{
+  height: 100%;
+  width: 15%;
+  justify-content: flex-end;
+}
+
+.end button{
+  cursor: pointer;
+  padding: 10px 30px;
+  color: red;
+  background-color: #4a4a4a;
+  border: transparent;
+}
