@@ -69,6 +69,8 @@ footer{
   width: 100%;
 }
 
+/* inizio media */
+
 .media{
   flex-wrap: wrap;
   width: 15%;
@@ -89,6 +91,10 @@ footer{
   font-size: 1rem;
 }
 
+/* fine media */
+
+/* action */
+
 .action{
   justify-content: center;
   flex-wrap: wrap;
@@ -103,17 +109,8 @@ footer{
   color: #4bc800;
 }
 
-
 .action .active{
   color: #4bc800;
-}
-
-footer #chevron{
-  font-size: 1.2rem;
-}
-
-.caption#chevron{
-  justify-content: center;
 }
 
 .action .caption{
@@ -127,6 +124,16 @@ footer #chevron{
   font-size: 1.2rem;
 }
 
+footer #chevron{
+  font-size: 1.2rem;
+}
+
+.caption#chevron{
+  justify-content: center;
+}
+/* fine action */
+
+/* bottone */
 .end{
   height: 100%;
   width: 15%;
